@@ -11,6 +11,11 @@ img {
     height: 128px; ;
 
 }
+body {
+   
+    text-align: center;
+    align-items: center;
+    background-color: #fafafa;
 
 a{
     text-align: center;
