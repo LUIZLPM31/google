@@ -5,31 +5,27 @@ h1 {
 
 
 
-
 img { 
-    text-align: center;
+  
     height: 92px; ;
 
 }
-body {
-   
-    text-align: center;
-    align-items: center;
-    background-color: #fafafa;
-}
+
 a{
-    text-align: center;
+
     text-decoration: text ;
     color: rgb(0, 0, 0);
     font-size: 13px;
     font-family: 30px arial, sans-serif;
 }
 .apps{
+  
     width:  24px;
     fill: #5f6368;
 }
 
 .botão-login{
+
     background-color: #1a73e8;
     color: #ffffff;
     padding: 10px 30px;
