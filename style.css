@@ -19,10 +19,9 @@ h1 {
 }
 
 
-
 img { 
-    
-    height: 92px; ;
+   
+    height: 92px; 
 
 }
 
@@ -44,7 +43,7 @@ text-decoration: none;
 
 }
 .apps{
-    
+  
     width:  24px;
     fill: #5f6368;
     
@@ -61,7 +60,7 @@ text-decoration: none;
     font-size: 14px; 
 }
 footer{
-    color: #f2f2f2;
+   background-color:  #f2f2f2;
 }
 .caixa-rodape{
     display: flex;
