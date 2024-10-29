@@ -1,35 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial, sans-serial;
+    font-size: 14px;
+    color: #202124;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+    padding: 6px 14px;
+}
+
 h1 { 
-    text-align: center;
-    color: rgba(255, 0, 0, 0.562);
+    
+    color: red
 }
 
 
 
 img { 
-  
+    
     height: 92px; ;
 
 }
 
-a{
+a{  
+text-decoration: none;
+} 
 
-    text-decoration: text ;
-    color: rgb(0, 0, 0);
+.link-cabecalho{
+    color: #000000de;
     font-size: 13px;
-    font-family: 30px arial, sans-serif;
+
+}
+.caixa-icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+
 }
 .apps{
-  
+    
     width:  24px;
     fill: #5f6368;
+    
 }
 
 .botão-login{
-
+    
     background-color: #1a73e8;
     color: #ffffff;
     padding: 10px 30px;
     font-family: Google Sans, Roboto, Helverica, Arial, sans-serif;
     font-weight: 500;
     border-radius: 4px;
+    font-size: 14px; 
+}
+footer{
+    color: #f2f2f2;
+}
+.caixa-rodape{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+
+}
+.caixa-rodape--borda{
+    border-bottom: 1px solid #dadce0;
+}
+.caixa-links{ 
+    display: flex;
+    gap: 30px;
 }
