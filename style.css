@@ -1,77 +1,99 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    font-family: arial, sans-serial;
-    font-size: 14px;
-    color: #202124;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0e0d0d;
+    margin: 0;
+    padding: 20px;
+    background-image: url('https://vejasp.abril.com.br/wp-content/uploads/2020/07/netflix-library.jpg?quality=70&strip=info&w=1280&h=720&crop=1');
+    background-size: cover; /* Para cobrir toda a tela */
+    background-position: center; /* Para centralizar a imagem */
+    background-repeat: no-repeat; /* Para não repetir a imagem */
 }
-header{
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: rgb(17, 16, 16);
+    padding: 20px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Adiciona flexbox */
+    flex-direction: column; /* Organiza em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+label {
+    color: #ccc;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: crimson;
+}
+
+form {
     display: flex;
-    align-items: center;
-    justify-content: end;
-    gap: 15px;
-    padding: 6px 14px;
+    flex-direction: column; /* Faz com que os itens sejam empilhados */
+    align-items: center; /* Centraliza os itens horizontalmente */
 }
 
-h1 { 
-    
-    color: white
+.btn {
+    width: 100%; 
+    max-width: 200px; /* Largura máxima para os botões */
+    margin-top: 10px; /* Espaçamento entre os botões */
 }
 
-
-img { 
-   
-    height: 92px; 
-
+.logo {
+    width: 200px; /* Tamanho da logo */
+    margin-bottom: 20px; /* Espaço abaixo da logo */
+    padding: 0; /* Remover padding */
 }
 
-a{  
-text-decoration: none;
-} 
-
-.link-cabecalho{
-    color: #000000de;
-    font-size: 13px;
-
-}
-.caixa-icone{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 48px;
-    height: 48px;
-
-}
-.apps{
-  
-    width:  24px;
-    fill: #5f6368;
-    
+p {
+    text-align: center;
+    color: #f7efef;
+    margin: 20px 0;
 }
 
-.botão-login{
-    
-    background-color: #1a73e8;
-    color: #ffffff;
-    padding: 10px 30px;
-    font-family: Google Sans, Roboto, Helverica, Arial, sans-serif;
-    font-weight: 500;
-    border-radius: 4px;
-    font-size: 14px; 
+strong {
+    color: rgb(163, 24, 163);
 }
-footer{
-   background-color:  #f2f2f2;
-}
-.caixa-rodape{
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 30px;
 
+.nomedaempresa {
+    text-align: center;
+    font-size: 2em;
+    color: #a32828; 
+    margin-bottom: 20px; /* Espaçamento abaixo do nome */
 }
-.caixa-rodape--borda{
-    border-bottom: 1px solid #dadce0;
+
+.frasedebaixo {
+    text-align: center;
+    font-size: medium;
+    color: red;
+    margin-top: 0;
 }
-.caixa-links{ 
-    display: flex;
-    gap: 30px;
-}
+
